@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+
+
+</head>
+
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="espacio_logo">
+                <img src="logos/logo5.png" alt="Flumix centro de depilación en letras cursivas">
+            </div>
+
+            <ul class="nav_menu">
+
+                <li class="nav_menu_item">
+                    <a class="nav_menu_link" href="index.html" target="_blank">HOME</a>
+                </li>
+                <li class="nav_menu_item">
+                    <a class="nav_menu_link" href="nosotros.html" target="_blank">NOSOTROS</a>
+                </li>
+                <li class="nav_menu_item">
+                    <a class="nav_menu_link" href="contacto.html" target="_blank">CONTACTO</a>
+                </li>
+
+            </ul>
+            <input type="checkbox" name="check-btn" id="check">
+            <label for="check-btn" class="btn-menu"><i class="fa-solid fa-bars"></i></label>
+        </nav>
+
+    </header>
+
+    <main class="main">
+        <div class="grid-container" id="C">
+            <div>
+                <h2></h2>
+            </div>
+            <div class="formulario">
+
+                <form action="" name="formulario" method="post" target="">
+                    <h3 id="form_title">Envianos un mensaje</h3>
+
+                    <label for="Nombre">Nombre</label><br>
+                    <input type="text" name="Nombre" placeholder="Nombre..." required>
+
+                    <label for="E-mail">E-mail</label><br>
+                    <input type="email" name="Email" placeholder="Correo electronico..." required>
+
+                    <label for="Teléfono">Teléfono/Cel</label><br>
+                    <input type="tel" name="Telefono" placeholder="Teléfono..." required>
+
+                    <label for="Mensaje">Mensaje</label><br>
+                    <textarea rows="10" cols="50" name="Mensaje" required>Escribe aquí tu mensaje...
+                        </textarea><br>
+
+                    <input type="submit" name="enviar" value="ENVIAR" id="enviar">
+
+                </form>
+            </div>
+
+            <div class="promos">
+
+                <p>PROMO 3<br>ROSTRO + PERFILADO DE CEJAS<br>$250<br><img src="iconos/pagos1.png"
+                        alt="íconos varios de diversos medios de pago: mercado pago, tarjetas visa, master, american express">
+                </p>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="redes">
+            <p>Seguinos en nuestras redes</p>
+            <ul>
+                <li><a href="https://www.facebook.com/groups/1866963190246062"><img src="iconos/facebook.png"
+                            alt="ícono de facebook"></a></li>
+                <li><a href="https://www.instagram.com/estrenosdoramas/"><img src="iconos/instagram.png"
+                            alt="ícono de instagram"></a></li>
+                <li><a href="https://wa.me/c/5491123903533"><img src="iconos/whatsapp.png" alt="ícono de whatsapp"></a>
+                </li>
+            </ul>
+        </div>
+        <div class="copyright">
+            <p><b>®2022 - FLUMIX Center</b></p>
+        </div>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
